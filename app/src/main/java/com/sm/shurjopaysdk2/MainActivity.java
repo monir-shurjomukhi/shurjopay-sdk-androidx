@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   @Override
   public void onClick(View v) {
     RequiredDataModel requiredDataModel = new RequiredDataModel(
-        "allexambd",
-        "bnzofEyOCfBW",
-        "AEB" + new Random().nextInt(1000000),
+        "merinasoft",
+        "FjJiUgYUm1z5",
+        "MNC" + new Random().nextInt(1000000),
         Double.parseDouble(amount.getText().toString()),
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJhbGxleGFtYmQiLCJpYXQiOjE2MDM5ODg4NDB9.mfHdsOh-RWp10DSdgkF22tx1XJtEye4CHOcYIlC0rKY"
+        "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im1lcmluYXNvZnQiLCJrZXkiOiJuMjlQb0RyTFhDb2kifQ.wj6OJtuz5ONPBoCYM3e7-D5_6Uf8XwgJWqo0TTYHLM0"
     );
 
     ShurjoPaySDK.getInstance().makePayment(
